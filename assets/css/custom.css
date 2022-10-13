@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+:root {
+  --primary-2: #f4442e;
+  --primary-3: #000;
+  --primary-4: #e4dcd1;
+  --font-primary: "Anton", sans-serif;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #fd2d55;
+  border-color: #fd2d55;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #fd0736;
+  border-color: #f50231;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #fd0736;
+  border-color: #f50231;
+  box-shadow: 0 0 0 0.2rem rgba(253, 77, 111, 0.5);
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #fff;
+  background-color: #fd2d55;
+  border-color: #fd2d55;
+}
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #f50231;
+  border-color: #e8022e;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(253, 77, 111, 0.5);
+}
+
+.bg-primary-3 {
+  background-color: var(--primary-3) !important;
+}
+
+.bg-font-primary {
+  font-family: var(--font-primary);
+}
+
+.text-primary-2 {
+  color: var(--primary-2) !important;
+}
+
+.text-primary-4 {
+  color: var(--primary-4);
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
+.letter-spacing-2 {
+  letter-spacing: 0.4rem;
+}
+
+.letter-spacing-3 {
+    letter-spacing: 0.6rem;
+  }
